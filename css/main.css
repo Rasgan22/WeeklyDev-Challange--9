@@ -1,0 +1,537 @@
+/* line 5, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 8, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 11, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+h1, h2, h3, h4, h5, h6, ul, li {
+  margin: 0;
+  padding: 0; }
+
+/* line 15, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+h1 {
+  font-size: 3.3rem;
+  color: #FFFFFF;
+  font-family: "Dancing Script", cursive;
+  font-weight: normal; }
+
+/* line 21, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+h2 {
+  font-size: 4.8rem;
+  color: #FFFFFF;
+  font-family: "Playfair Display", serif;
+  font-weight: normal; }
+
+/* line 27, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+h3 {
+  font-size: 2.3rem;
+  color: #FFFFFF;
+  font-family: "Dancing Script", cursive;
+  font-weight: normal; }
+
+/* line 33, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+h4 {
+  font-size: 2.5rem;
+  color: #595959;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  font-weight: normal; }
+
+/* line 40, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  color: #B9B9B9;
+  text-align: center;
+  margin: 0;
+  font-weight: normal; }
+
+/* line 48, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+.wrap, body .works {
+  margin: 0 auto;
+  max-width: 1230px;
+  text-align: center; }
+
+/* line 53, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+.separator {
+  display: block;
+  height: 3px;
+  background-color: #FFFFFF;
+  width: 75px;
+  margin: 0 auto;
+  margin-top: 25px; }
+
+/* line 61, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+  /* line 65, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .header {
+    margin: 4% 4% 0 4%; }
+    /* line 67, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .header .jumbotron {
+      background: url("../img/header-photo.png") no-repeat;
+      background-size: cover; }
+      /* line 71, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .header .jumbotron h1 {
+        padding-top: 180px; }
+      /* line 74, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .header .jumbotron h2 {
+        padding-top: 50px; }
+      /* line 77, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .header .jumbotron p {
+        padding-top: 30px;
+        padding-bottom: 150px;
+        color: #EFEDEC; }
+      /* line 82, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .header .jumbotron i {
+        color: #FFFFFF;
+        font-size: 2rem;
+        padding-bottom: 70px; }
+    /* line 88, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .header .navigation {
+      border-bottom: 1px solid #EBEBEB;
+      height: 55px;
+      position: relative;
+      width: 100%;
+      background-color: #FFFFFF;
+      z-index: 1000; }
+      /* line 95, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .header .navigation .navigation-toggle {
+        position: absolute;
+        top: 25%;
+        right: 0;
+        display: block;
+        cursor: pointer; }
+        /* line 101, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+        body .header .navigation .navigation-toggle span {
+          display: block;
+          height: 4px;
+          width: 25px;
+          background-color: #000000;
+          border-radius: 20px;
+          margin-top: 4px; }
+      /* line 110, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .header .navigation h3 {
+        color: #727272;
+        float: left;
+        margin-top: 15px; }
+      /* line 115, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .header .navigation ul {
+        padding: 19px 0;
+        display: none;
+        position: absolute;
+        top: 55px;
+        width: 100%;
+        height: 40vh;
+        background-color: #FFFFFF; }
+        /* line 123, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+        body .header .navigation ul li {
+          text-align: center;
+          display: block;
+          text-transform: uppercase;
+          font-family: "Raleway", sans-serif;
+          font-size: 2.2rem;
+          padding-bottom: 2px;
+          margin: 5vh 0; }
+          /* line 131, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+          body .header .navigation ul li a {
+            text-decoration: none;
+            color: #727272; }
+        /* line 136, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+        body .header .navigation ul li:first-child {
+          margin-right: 0; }
+  /* line 143, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .about h4 {
+    padding-top: 130px; }
+  /* line 146, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .about .separator {
+    background-color: #D07C7C; }
+  /* line 149, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .about p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 0 10%;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  /* line 159, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .works .separator {
+    margin-bottom: 50px;
+    background-color: #D07C7C; }
+  /* line 163, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .works .projects {
+    margin: 0 4%; }
+    /* line 165, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .works .projects .img-container {
+      position: relative;
+      margin: 4% 0; }
+      /* line 168, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .works .projects .img-container img {
+        width: 100%; }
+      /* line 171, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .works .projects .img-container .img-box {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transition: 1s; }
+        /* line 178, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+        body .works .projects .img-container .img-box .description {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          cursor: pointer; }
+          /* line 184, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+          body .works .projects .img-container .img-box .description h4, body .works .projects .img-container .img-box .description p {
+            color: #FFFFFF;
+            position: relative; }
+          /* line 188, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+          body .works .projects .img-container .img-box .description p {
+            font-weight: lighter;
+            transition: 1s; }
+          /* line 192, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+          body .works .projects .img-container .img-box .description h4 {
+            transition: 1s; }
+          /* line 195, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+          body .works .projects .img-container .img-box .description .separator {
+            background-color: #FFFFFF;
+            margin: 3px 20px 7px 20px;
+            height: 2px;
+            width: 150px; }
+          /* line 201, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+          body .works .projects .img-container .img-box .description h4::before {
+            position: absolute;
+            content: '';
+            border-top: 1px solid #FFFFFF;
+            border-left: 1px solid #FFFFFF;
+            height: 20px;
+            width: 20px;
+            left: 0; }
+          /* line 210, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+          body .works .projects .img-container .img-box .description h4::after {
+            position: absolute;
+            content: '';
+            border-top: 1px solid #FFFFFF;
+            border-right: 1px solid #FFFFFF;
+            height: 20px;
+            width: 20px;
+            right: 0; }
+          /* line 219, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+          body .works .projects .img-container .img-box .description p::before {
+            position: absolute;
+            content: '';
+            border-bottom: 1px solid #FFFFFF;
+            border-left: 1px solid #FFFFFF;
+            height: 20px;
+            width: 20px;
+            left: 0;
+            top: 5px; }
+          /* line 229, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+          body .works .projects .img-container .img-box .description p::after {
+            position: absolute;
+            content: '';
+            border-bottom: 1px solid #FFFFFF;
+            border-right: 1px solid #FFFFFF;
+            height: 20px;
+            width: 20px;
+            right: 0;
+            top: 5px; }
+          /* line 239, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+          body .works .projects .img-container .img-box .description .on-hover {
+            margin: 0 -30px 0 -30px;
+            transition: 1.5s; }
+      /* line 245, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .works .projects .img-container .img-box:hover {
+        background-color: rgba(0, 0, 0, 0.6); }
+    /* line 252, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .works .projects #architecture .img-box .description h4::before {
+      left: -15px; }
+    /* line 255, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .works .projects #architecture .img-box .description h4::after {
+      right: -15px; }
+    /* line 258, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .works .projects #architecture .img-box .description p::before {
+      left: -15px; }
+    /* line 261, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .works .projects #architecture .img-box .description p::after {
+      right: -15px; }
+  /* line 268, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .works .button {
+    height: 50px;
+    width: 200px;
+    background-color: #D07C7C;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-style: none;
+    text-transform: uppercase; }
+  /* line 279, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .testimonials {
+    padding-bottom: 100px; }
+    /* line 281, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .testimonials .separator {
+      background-color: #D07C7C; }
+    /* line 284, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .testimonials blockquote {
+      padding-top: 50px; }
+      /* line 286, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .testimonials blockquote p {
+        margin: 0 10%; }
+      /* line 289, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .testimonials blockquote .author {
+        font-family: "Raleway", sans-serif;
+        font-size: 1rem;
+        color: #B9B9B9;
+        padding-top: 20px; }
+  /* line 297, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .video {
+    margin: 0 4%;
+    height: 500px;
+    background: url("../img/video-cover.png") no-repeat;
+    background-size: cover;
+    position: relative; }
+    /* line 304, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .video .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 50px;
+      width: 80px;
+      border-style: none;
+      background: none;
+      cursor: pointer; }
+      /* line 314, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .video .play-button .corner {
+        position: absolute;
+        width: 20px;
+        height: 20px; }
+      /* line 319, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .video .play-button .tl {
+        top: 0;
+        left: 0;
+        border-top: 1px solid #000000;
+        border-left: 1px solid #000000; }
+      /* line 325, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .video .play-button .tr {
+        top: 0;
+        right: 0;
+        border-top: 1px solid #000000;
+        border-right: 1px solid #000000; }
+      /* line 331, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .video .play-button .bl {
+        bottom: 0;
+        left: 0;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000; }
+      /* line 337, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .video .play-button .br {
+        bottom: 0;
+        right: 0;
+        border-bottom: 1px solid #000000;
+        border-right: 1px solid #000000; }
+      /* line 343, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .video .play-button .line {
+        height: 1px;
+        width: 20px;
+        background-color: #000000;
+        margin-left: 25px; }
+      /* line 349, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .video .play-button .top {
+        transform: rotate(35deg); }
+      /* line 352, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .video .play-button .bottom {
+        transform: rotate(-35deg);
+        margin-top: 10px; }
+  /* line 358, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .follow {
+    padding: 150px 0; }
+    /* line 360, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .follow .separator {
+      background-color: #D07C7C; }
+    /* line 363, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .follow .social {
+      padding: 100px 0;
+      display: flex;
+      justify-content: center; }
+      /* line 367, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .follow .social .container-social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 2%;
+        height: 60px;
+        width: 60px;
+        border-radius: 100px;
+        border: 4px solid #FFFFFF;
+        transition: 1s; }
+        /* line 378, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+        body .follow .social .container-social:hover {
+          background-color: #E6B5B5;
+          box-shadow: 0 0 0 3px #E6B5B5;
+          transition: 1s; }
+        /* line 383, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+        body .follow .social .container-social a {
+          color: #000000; }
+        /* line 386, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+        body .follow .social .container-social .social-hover {
+          color: #FFFFFF;
+          transition: 1s; }
+  /* line 393, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .contact {
+    margin: 0 4%;
+    background-image: url("/img/contact-background.png");
+    background-size: cover;
+    padding: 50px 0; }
+    /* line 399, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .contact .separator {
+      background-color: #D07C7C; }
+    /* line 402, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .contact p {
+      margin-top: 50px; }
+    /* line 406, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .contact form input {
+      border: 1px solid #D07C7C;
+      width: 80%;
+      margin: 25px auto 0 auto;
+      padding: 15px 30px; }
+    /* line 412, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .contact form textarea {
+      width: 80%;
+      margin: 25px auto 0 auto;
+      padding: 15px 30px 50px 30px;
+      font-family: arial;
+      border: 1px solid #D07C7C;
+      resize: none; }
+    /* line 421, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .contact .send {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row; }
+      /* line 426, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .contact .send p {
+        flex-basis: 70%;
+        font-size: 1.4rem;
+        text-align: left; }
+      /* line 431, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      body .contact .send .button {
+        height: 50px;
+        background-color: #D07C7C;
+        color: #FFFFFF;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        border-style: none;
+        text-transform: uppercase;
+        flex-basis: 30%; }
+  /* line 443, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  body .footer-main {
+    padding: 25px 0; }
+    /* line 445, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .footer-main i {
+      color: #B9B9B9; }
+    /* line 448, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .footer-main h1, body .footer-main h3 {
+      color: #000000; }
+    /* line 451, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .footer-main h1 {
+      font-size: 2.1rem;
+      padding-top: 20px; }
+    /* line 455, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .footer-main h3 {
+      font-size: 1.5rem; }
+    /* line 458, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    body .footer-main p {
+      font-size: 1.2rem;
+      padding-top: 20px; }
+
+@media screen and (min-width: 768px) {
+  /* line 465, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  nav {
+    border-bottom: 3px solid #EBEBEB; }
+    /* line 467, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    nav #toggle {
+      display: none; }
+    /* line 470, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    nav #nav-wide-screen {
+      display: block;
+      position: static;
+      height: auto;
+      text-align: right; }
+      /* line 475, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      nav #nav-wide-screen li {
+        display: inline-block;
+        margin-right: 5%;
+        font-size: 1.3rem;
+        padding-bottom: 2px;
+        margin: 0;
+        padding-right: 5%; }
+      /* line 483, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      nav #nav-wide-screen li:last-child {
+        padding-right: 0; }
+  /* line 489, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  .projects .main {
+    overflow: auto; }
+    /* line 491, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    .projects .main #people {
+      width: 48%;
+      float: left;
+      margin-right: 4%;
+      margin-top: 0; }
+    /* line 497, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    .projects .main #wedding {
+      width: 48%;
+      float: left;
+      margin-top: 0; }
+    /* line 502, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    .projects .main #architecture {
+      float: left;
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%; }
+  /* line 511, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  .projects .side #urban {
+    margin-top: 0; } }
+
+@media screen and (min-width: 992px) {
+  /* line 520, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+  .projects {
+    overflow: auto; }
+    /* line 522, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    .projects .main {
+      width: 60.666%;
+      float: left;
+      margin-right: 4%; }
+      /* line 526, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      .projects .main #people {
+        margin-top: 0;
+        margin-bottom: 0; }
+      /* line 530, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      .projects .main #wedding {
+        margin-top: 0;
+        margin-bottom: 0; }
+      /* line 534, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      .projects .main #architecture {
+        margin-top: 4%; }
+    /* line 538, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+    .projects .side {
+      width: 35.1%;
+      float: left;
+      margin-top: 2.4%; }
+      /* line 543, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      .projects .side #urban img {
+        width: 100%;
+        height: auto; }
+      /* line 548, E:/Brackets/WeeklyDev Challange #9/css/main.scss */
+      .projects .side #animals {
+        margin-top: 7.5%; } }
+
+/*# sourceMappingURL=main.css.map */
