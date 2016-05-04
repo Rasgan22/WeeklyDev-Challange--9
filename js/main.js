@@ -4,15 +4,11 @@ $(document).ready(function () {
 		var y = $(this).scrollTop();
 		var x = $('#about').position();
 		if (y > x.top) {
-			$('#nav').css({'position':'fixed', 'top': '0', 'left': '0' });
+			$('#nav').css({'position':'fixed', 'top': '0', 'left': '0', 'padding': '0 5%' });
 			$('#toggle').css('right', '4%');
-			$('#logo').css('margin-left', '4%');
-			$('li:last-child').css('padding-right', '5%');
 		} else {
-			$('#nav').css('position','relative');
+			$('#nav').css({'position':'relative', 'padding': '0'});
 			$('#toggle').css('right', '0');
-			$('#logo').css('margin-left', '0');
-			$('li:last-child').css('padding-right', '0');
 		}
 	});
 	$('#toggle').click(function () {
@@ -21,30 +17,9 @@ $(document).ready(function () {
 	});
 	
 	// Works section
-	$('#nature').hover(function () {
-		$('#nature p').toggleClass('on-hover');
-		$('#nature h4').toggleClass('on-hover');
-	});
-	$('#urban').hover(function () {
-		$('#urban p').toggleClass('on-hover');
-		$('#urban h4').toggleClass('on-hover');
-	});
-	$('#people').hover(function () {
-		$('#people p').toggleClass('on-hover');
-		$('#people h4').toggleClass('on-hover');
-	});
-	$('#wedding').hover(function () {
-		$('#wedding p').toggleClass('on-hover');
-		$('#wedding h4').toggleClass('on-hover');
-	});
-	$('#architecture').hover(function () {
-		$('#architecture p').toggleClass('on-hover');
-		$('#architecture h4').toggleClass('on-hover');
-	});
-	$('#animals').hover(function () {
-		$('#animals p').toggleClass('on-hover');
-		$('#animals h4').toggleClass('on-hover');
-	});
+	$('.img-container').hover(function() {
+		$(this).children().toggleClass('on-hover');
+	})
 	
 	// Carousel framework
 	$('.owl-carousel').owlCarousel({
