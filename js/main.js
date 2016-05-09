@@ -17,9 +17,32 @@ $(document).ready(function () {
 	});
 	
 	// Works section
-	$('.img-container').hover(function() {
-		$(this).children().toggleClass('on-hover');
-	})
+	
+	$('#nature').hover(function () {
+		$('#nature p').toggleClass('on-hover');
+		$('#nature h4').toggleClass('on-hover');
+	});
+	$('#urban').hover(function () {
+		$('#urban p').toggleClass('on-hover');
+		$('#urban h4').toggleClass('on-hover');
+	});
+	$('#people').hover(function () {
+		$('#people p').toggleClass('on-hover');
+		$('#people h4').toggleClass('on-hover');
+	});
+	$('#wedding').hover(function () {
+		$('#wedding p').toggleClass('on-hover');
+		$('#wedding h4').toggleClass('on-hover');
+	});
+	$('#architecture').hover(function () {
+		$('#architecture p').toggleClass('on-hover');
+		$('#architecture h4').toggleClass('on-hover');
+	});
+	$('#animals').hover(function () {
+		$('#animals p').toggleClass('on-hover');
+		$('#animals h4').toggleClass('on-hover');
+	});
+	
 	
 	// Carousel framework
 	$('.owl-carousel').owlCarousel({
