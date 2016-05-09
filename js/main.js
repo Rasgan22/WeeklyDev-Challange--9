@@ -17,14 +17,8 @@ $(document).ready(function () {
 	});
 	
 	// Works section
-	var index = $('.img-container').index(this);
-	$( "span" ).text( "That was div index #" + index );
-	$('.img-container:nth-child(index)').hover(function () {
-		$('.img-container:nth-child(index) p').toggleClass('on-hover');
-		$('.img-container:nth-child(index) h4').toggleClass('on-hover');
-	});
 	
-	/* $('#nature').hover(function () {
+	$('#nature').hover(function () {
 		$('#nature p').toggleClass('on-hover');
 		$('#nature h4').toggleClass('on-hover');
 	});
@@ -48,7 +42,6 @@ $(document).ready(function () {
 		$('#animals p').toggleClass('on-hover');
 		$('#animals h4').toggleClass('on-hover');
 	});
-	*/
 	
 	
 	// Carousel framework
